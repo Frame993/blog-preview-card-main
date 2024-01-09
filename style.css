@@ -1,0 +1,102 @@
+/*
+* { 
+  border: 1px solid red;  
+}
+*/
+@font-face {
+    font-family: 'Figtree-ExtraBold';
+    src: local('Figtree'), 
+    url('assets/fonts/static/Figtree-ExtraBold.ttf') format('truetype'),
+
+    /* Additional font formats and sources can be added as needed */
+  }
+@font-face {
+    font-family: 'Figtree-SemiBold';
+    src: local('Figtree'), 
+    url('assets/fonts/static/Figtree-Semibold.ttf') format('truetype');
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set the height of the body to 100% of the viewport height */
+    margin: 0; /* Remove default margin */    
+    background: hsl(47, 88%, 63%);
+}
+
+article {
+    box-shadow: 10px 10px black;  
+    padding: 20px;
+    margin: 20px;
+    align-items: center;
+    background: white;
+    border-radius: 20px;
+    border: 1px solid black;
+
+}
+
+.article-img  {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.learning {
+    border-radius: 4px;
+    width: fit-content;
+    background: hsl(47, 88%, 63%);
+    padding: 6px 12px;
+    font-family: 'Figtree-ExtraBold';
+    font-size: 14px;
+    color: black;
+}
+
+h1 {
+    font-family: 'Figtree-ExtraBold';
+    font-size: 24px;
+}
+
+h1:hover {
+    color: hsl(47, 88%, 63%);
+    cursor: url('assets/images/image-avatar.webp'), auto;
+}
+
+h3 {
+    font-family: 'Figtree-ExtraBold';
+    font-size: 14px;
+}
+
+p {
+    font-family: 'Figtree-SemiBold';
+    font-size: 16px;
+    line-height: 1.5;
+    color: grey;
+}
+
+.date {
+    font-size: 14px;
+    font-family: 'Figtree-SemiBold';
+    color: black;
+}
+
+.author {
+    font-family: 'Figtree-ExtraBold';
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.profile-img {
+    padding-right: 5px;
+    width: 32px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 854px) {
+    body {
+        flex-direction: column;
+    }
+    
+}
