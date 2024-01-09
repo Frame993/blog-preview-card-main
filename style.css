@@ -6,14 +6,14 @@
 @font-face {
     font-family: 'Figtree-ExtraBold';
     src: local('Figtree'), 
-    url('assets/fonts/static/Figtree-ExtraBold.ttf') format('truetype'),
+    url('./assets/fonts/static/Figtree-ExtraBold.ttf') format('truetype'),
 
     /* Additional font formats and sources can be added as needed */
   }
 @font-face {
     font-family: 'Figtree-SemiBold';
     src: local('Figtree'), 
-    url('assets/fonts/static/Figtree-Semibold.ttf') format('truetype');
+    url('./assets/fonts/static/Figtree-SemiBold.ttf') format('truetype');
 }
 
 body {
